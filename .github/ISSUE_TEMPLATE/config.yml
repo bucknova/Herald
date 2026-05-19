@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📖 Architecture & decisions
+    url: https://github.com/bucknova/Herald/blob/main/ARCHITECTURE.md
+    about: Read the project's design decisions before opening an issue about them.
+  - name: 🗺️ Build plan
+    url: https://github.com/bucknova/Herald/blob/main/PLAN.md
+    about: Check the phased build plan — your idea might already be on the roadmap.

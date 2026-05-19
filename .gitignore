@@ -1,0 +1,41 @@
+# ─── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ─── Environment / Secrets ──────────────────────────────────
+.env
+.env.local
+*.env.local
+
+# ─── SQLite ─────────────────────────────────────────────────
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# ─── Editors / OS ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ─── Build / Dist ───────────────────────────────────────────
+dist/
+build/
+*.tar.gz
+
+# ─── Node / Tailwind (future) ───────────────────────────────
+node_modules/
+herald-web/app/static/css/build/

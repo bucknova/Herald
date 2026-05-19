@@ -1,0 +1,20 @@
+# Herald — root docker-compose
+#
+# The build context for each service is the repository root so the
+# Dockerfile can COPY from both the service's own directory and shared/.
+#
+# Both services mount the same ./data directory. SQLite WAL mode handles
+# concurrent access.
+#
+# The herald-web service is added in a later commit (Phase 0.3).
+
+services:
+  herald-bot:
+    build:
+      context: .
+      dockerfile: herald-bot/Dockerfile
+    container_name: herald-bot
+    restart: unless-stopped
+    env_file: ./herald-bot/.env
+    volumes:
+      - ./data:/app/data

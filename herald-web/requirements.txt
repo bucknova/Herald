@@ -1,0 +1,6 @@
+# Phase 0 — minimal scaffold dependencies.
+# Phase 1 will add: itsdangerous, httpx, jinja2, python-multipart,
+# markdown, bleach.
+
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0

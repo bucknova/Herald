@@ -98,6 +98,6 @@ guaranteed to cause rework.
 
 ## License
 
-Currently TBD. Until a license is added, all rights reserved by the
-maintainer. If you contribute, you're agreeing your contribution will
-be released under whatever license is chosen.
+Herald is released under the [GNU General Public License v3.0](./LICENSE).
+By submitting a contribution, you agree that your contribution will be
+licensed under the same terms.

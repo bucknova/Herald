@@ -7,7 +7,7 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-async-009688.svg)
 ![discord.py](https://img.shields.io/badge/discord.py-2.3+-5865F2.svg)
 ![Status](https://img.shields.io/badge/web%20portal-Phase%200-orange.svg)
-![License](https://img.shields.io/badge/license-TBD-lightgrey.svg)
+[![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](LICENSE)
 
 Herald is the DM's right hand. The Discord bot handles real-time party
 interactions — pings, RSVPs, quick lookups, AI-generated loot — while the
@@ -190,6 +190,7 @@ Herald/
 ├── CONTRIBUTING.md             How to contribute
 ├── CHANGELOG.md                Notable changes
 ├── SECURITY.md                 Security policy
+├── LICENSE                     GNU GPL-3.0
 └── README.md                   This file
 ```
 
@@ -320,8 +321,19 @@ If you're submitting a PR, read [CONTRIBUTING.md](./CONTRIBUTING.md) first.
 
 ## 📄 License
 
-License TBD. The codebase is being prepared for an open-source license
-decision.
+Herald is released under the **[GNU General Public License v3.0](./LICENSE)**.
+
+In short:
+
+- ✅ You can use, modify, and redistribute Herald freely.
+- ✅ You can run a self-hosted copy for your group, modified or not.
+- 🔁 If you **distribute** a modified version, you must release your
+  source under the same GPL-3.0 terms.
+- ⚠️ No warranty — use at your own risk.
+
+The full license text is in [`LICENSE`](./LICENSE). See
+[gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
+for the canonical version.
 
 ---
 
